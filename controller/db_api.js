@@ -1,11 +1,11 @@
-var mongoose = require('mongoose'),
+// var mongoose = require('mongoose'),
 
-Door = mongoose.model('Door');
+// Door = mongoose.model('Door');
 
 db_service = {
   findAll : function(req, res){
-    Door.find({},function(err, results) {
-      return res.send(results);
-    });
+    // Door.find({},function(err, results) {
+    //   return res.send(results);
+    // });
   },
 }
